@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-image: url('images/background.jpg');
+  /* ajuster le style pour une image responsive */
+  background-size: cover;
+  background-color: rgba(7, 7, 7, 0.712);
+}
+
+h1{
+  text-align: center;
+  color: darkgreen;
+}
+
+
+
+/* Pour afficher les images avec une largueur maximale de 200px */
+.galerie img:nth-of-type(1) { max-width: 130px; }
+.galerie img:nth-of-type(2) { max-width: 160px; }
+.galerie img:nth-of-type(3) { max-width: 190px; }
+.galerie img:nth-of-type(4) { max-width: 135px; }
+.galerie img:nth-of-type(5) { max-width: 150px; }
+.galerie img:nth-of-type(6) { max-width: 180px; }
+.galerie img:nth-of-type(7) { max-width: 105px; }
+.galerie img:nth-of-type(8) { max-width: 140px; }
+.galerie img:nth-of-type(9) { max-width: 175px; }
+.galerie img:nth-of-type(10) { max-width: 155px; }
+.galerie img:nth-of-type(11) { max-width: 130px; }
+.galerie img:nth-of-type(12) { max-width: 160px; }
+.galerie img:nth-of-type(13) { max-width: 190px; }
+.galerie img:nth-of-type(14) { max-width: 138px; }
+.galerie img:nth-of-type(15) { max-width: 170px; }
+.galerie img:nth-of-type(16) { max-width: 140px; }
+.galerie img:nth-of-type(17) { max-width: 150px; }
+.galerie img:nth-of-type(18) { max-width: 170px; }
+.galerie img:nth-of-type(19) { max-width: 140px; }
+.galerie img:nth-of-type(20) { max-width: 190px; }
+
+
+/* Ajout d'un style de base pour éviter les marges et les débordements */
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  max-width: 1200px;
+  margin: 0 auto;;  /* wrapper dans les éléments suivants lorsque l'écran est petit*/
+}
+
+.galerie img {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.2s ease-out;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* ajout d'une ombre pour améliorer l'esthétique*/
+}
+
+/* Ajout de l'effet sur l'image au survol de la souris */
+.galerie img:hover {
+  z-index: 1;
+  transform: scale(1.2);
+  box-shadow: 20px 0px 10px rgba(0,0,0,0.3); /* ajout d'une ombre pour améliorer l'esthétique*/
+}
+
+
+@media screen and (max-width: 576px) {
+  .galerie {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+
+.galerie img:not(:hover) {
+  filter: grayscale(100%) sepia(50%);
+  opacity: 0.6;
+  transition: all 0.2s ease-out;
+}
+
+.galerie img:not(:hover):hover~* {
+  transform: translateY(20px) scale(0.8);
+}
