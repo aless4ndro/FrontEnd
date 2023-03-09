@@ -1,0 +1,229 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("https://ex.smnarnold.com/scss/overwatch/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.overwatch {
+  display: flex;
+  align-items: center;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.character--echo {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--genji {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--hanzo {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--junkrat {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--lucio {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--mccree {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--mercy {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--moira {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--orisa {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--pharah {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--reaper {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--reinhardt {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.character--echo {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/echo.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--echo:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--genji {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/genji.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--genji:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--hanzo {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/hanzo.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--hanzo:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--junkrat {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/junkrat.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--junkrat:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--lucio {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/lucio.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--lucio:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--mccree {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/mccree.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--mccree:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--mercy {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/mercy.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--mercy:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--moira {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/moira.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--moira:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--orisa {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/orisa.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--orisa:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--pharah {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/pharah.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--pharah:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--reaper {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/reaper.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--reaper:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.character--reinhardt {
+  background-image: url("https://ex.smnarnold.com/scs/overwatch/reinhardt.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.character--reinhardt:hover {
+  width: 210px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}/*# sourceMappingURL=styless.css.map */

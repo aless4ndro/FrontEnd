@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("https://ex.smnarnold.com/scss/overwatch/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+.overwatch {
+  display: flex;
+  align-items: center;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+}
+
+@each $character in echo,
+genji,
+hanzo,
+junkrat,
+lucio,
+mccree,
+mercy,
+moira,
+orisa,
+pharah,
+reaper,
+reinhardt {
+  .character--#{$character} {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+
+  }
+}
+
+
+@each $character in echo,
+genji,
+hanzo,
+junkrat,
+lucio,
+mccree,
+mercy,
+moira,
+orisa,
+pharah,
+reaper,
+reinhardt {
+  .character--#{$character} {
+    background-image: url("https://ex.smnarnold.com/scs/overwatch/#{$character}.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    &:hover {
+      width: 210px;
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+}
